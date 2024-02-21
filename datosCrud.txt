@@ -1,0 +1,23 @@
+CREATE TABLE cursos(
+id INTEGER PRIMARY KEY auto_increment,
+curso VARCHAR(45),
+area VARCHAR(45),
+precio INTEGER
+);
+
+INSERT INTO cursos (curso, area, precio) VALUES
+('Desarrollo de Apps Móviles', 'Desarrollo de Software', 120000),
+('Ilustración Digital', 'Artes y Diseño', 55000),
+('Machine Learning aplicado a Negocios', 'Tecnología', 135000),
+('Inglés Conversacional', 'Idiomas', 35000),
+('Gestión Estratégica de Recursos Humanos', 'Negocios', 95000),
+('Estrategias de Content Marketing', 'Marketing', 78000),
+('Análisis de Datos con Python', 'Ciencia de Datos', 125000),
+('Fotografía de Paisajes', 'Artes Visuales', 42000),
+('Finanzas Corporativas Avanzadas', 'Finanzas', 110000),
+('Desarrollo Web Frontend', 'Desarrollo de Software', 90000),
+('Diseño de Interfaces de Usuario', 'Artes y Diseño', 68000),
+('Introducción a la Ciberseguridad', 'Tecnología', 75000),
+('Español para Extranjeros', 'Idiomas', 40000),
+('Marketing en Redes Sociales', 'Marketing', 62000),
+('Análisis Predictivo con R', 'Ciencia de Datos', 140000);
